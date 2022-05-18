@@ -4,7 +4,7 @@ An optimization focused background process (doens't even live in tray) that swit
 (Some logitech keyboards don't have a numlock led for whatever inane reason)
 
 This uses the Logitech LED library (requires G hub) and an interrupt based paradigm. When a keyboard key is pressed, the callback function is called, and if it is
-the numlock key, a new thread is spun to get the toggle state and changed the led. Personal testing shows:
+the numlock key, a new thread is spun to get the toggle state and change the led. Personal testing shows:
 
 0% cpu usage when nothing is happening
 

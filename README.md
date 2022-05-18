@@ -21,3 +21,5 @@ use task scheduler to have it trigger when ghub launches in general (also few se
 Run it with elevated permissions (Administrator) otherwise the global hook won't go through other elevated programs like Task Manager.
 
 It's all hardcoded and the automation above requires using window's task scheduler since it's for myself, but if people stumble on this and want something more polished lmk. 
+
+Other avenues that would be interesting to investigate are dll-hijacking G-hub or modifying the keyboard firmware directly so the numlock indicator could be independent of the ghub led sdk, and the computer in general, since atm it doesn't run before logging in and some keyboards are wireless with quick-switch functionality.

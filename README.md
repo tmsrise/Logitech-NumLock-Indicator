@@ -18,6 +18,6 @@ I've hardcoded the keyboard to be red, with the numlock being either off or blue
 It can be scheduled to run on start up (with few second delay so ghub can launch) or 
 use task scheduler to have it trigger when ghub launches in general (also few second delay).
 
-Run it with elevated permissions (Administrator) otherwise the hook won't go through other elevated programs like Task Manager.
+Run it with elevated permissions (Administrator) otherwise the global hook won't go through other elevated programs like Task Manager.
 
 It's all hardcoded and the automation above requires using window's task scheduler since it's for myself, but if people stumble on this and want something more polished lmk. 

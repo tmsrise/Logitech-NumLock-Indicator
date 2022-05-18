@@ -7,7 +7,9 @@ This uses the Logitech LED library (requires G hub) and an interrupt based parad
 the numlock key, a new thread is spun to get the toggle state and changed the led. Personal testing shows:
 
 0% cpu usage when nothing is happening
+
 0% when the keyboard buttons other than numlock are pressed (the callback function is called, so i guess it takes less usage than task manager is capable of showing <0.1%)
+
 0.1% to 1.7% for the instant the numlock key is pressed.
 
 

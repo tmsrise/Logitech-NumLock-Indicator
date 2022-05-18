@@ -8,9 +8,9 @@ the numlock key, a new thread is spun to get the toggle state and changed the le
 
 0% cpu usage when nothing is happening
 
-0% when the keyboard buttons other than numlock are pressed (the callback function is called, so i guess it takes less usage than task manager is capable of showing <0.1%)
+0% when the keyboard buttons other than numlock are spammed (the callback function is called, so i guess it takes less usage than task manager is capable of showing aka <0.1%)
 
-0.1% to 1.7% for the instant the numlock key is spammed.
+0.1% to 1.7% when the numlock key is spammed.
 
 
 I've hardcoded the keyboard to be red, with the numlock being either off or blue-ish. 

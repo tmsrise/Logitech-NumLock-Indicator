@@ -16,7 +16,8 @@ the numlock key, a new thread is spun to get the toggle state and change the led
 I've hardcoded the keyboard to be red, with the numlock being either off or blue-ish. 
 
 It can be scheduled to run on start up (with few second delay so ghub can launch) or 
-use task scheduler to have it trigger when ghub launches in general (also few second delay)
+use task scheduler to have it trigger when ghub launches in general (also few second delay).
+
 Run it with elevated permissions (Administrator) otherwise the hook won't go through other elevated programs like Task Manager.
 
 It's all hardcoded and the automation above requires using window's task scheduler since it's for myself, but if people stumble on this and want something more polished lmk. 

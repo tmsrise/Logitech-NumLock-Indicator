@@ -1,6 +1,6 @@
 # Logitech-NumLock-Indicator
 
-An optimization focused background process (doens't even live in tray) that switches the rgb led of the numlock light when numlock is toggled.
+An optimization focused background process (doens't even live in tray) that switches the rgb backlight of the numlock key when numlock is toggled.
 (Some logitech keyboards don't have a numlock led for whatever inane reason)
 
 This uses the Logitech LED library (requires G hub) and an interrupt based paradigm. When a keyboard key is pressed, the callback function is called, and if it is
